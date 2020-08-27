@@ -1,0 +1,88 @@
+---
+title: ""
+bibliography: 
+  - references.bib
+csl: {{{citation_style}}}.csl
+output:
+  bookdown::word_document2:
+      toc: false
+      toc_depth: 3
+      reference_docx: word-styles-reference-01.docx
+---
+
+``` {r, echo = FALSE, warning=FALSE, message=FALSE}
+
+source(here::here("R","0_library.R"))
+knitr::opts_chunk$set(echo=FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+```
+
+# Front Matter
+__Title: __  
+
+&nbsp;
+
+__Authors and Affiliations__
+
+Luke A McGuinness^1,2^ (ORCID: 0000-0001-8730-9761)
+
+(1) Population Health Sciences, Bristol Medical School, University of Bristol, Bristol, UK
+(2) MRC Integrative Epidemiology Unit at the University of Bristol, Bristol, UK
+
+&nbsp;
+
+__Corresponding author:__  
+
+Luke McGuinness; Bristol Medical School, University of Bristol,
+Canynge Hall, 39 Whatley Road, Bristol, BS8 2PS, United Kingdom; luke.mcguinness@bristol.ac.uk
+
+&nbsp;
+
+__Keywords__
+
+Reproducibility; Data sharing; Data availability statements; Journalology; Preprints; Descriptive study
+
+#####
+
+# Abstract {#abstract}
+
+
+#####
+
+# Introduction {#intro}
+
+
+#####
+
+# Methods {#methods}
+
+
+#####
+
+# Results {#results}
+
+#####
+
+# Discussion
+
+
+#####
+
+# Back Matter
+
+## Material available statement
+
+
+## Acknowledgements
+
+We must acknowledge the input of several people, without whom the quality of this work would have been diminished: 
+
+
+## Funding
+
+LAM is supported by an National Institute for Health Research (NIHR) Doctoral Research Fellowship (DRF-2018-11-ST2-048). The funder had no role in designing the study; in the collection, analysis, and interpretation of data; in the writing of the report; and in the decision to submit the article for publication. The views expressed in this article are those of the authors and do not necessarily represent those of the NHS, the NIHR, MRC, or the Department of Health and Social Care.
+
+#####
+
+# References
