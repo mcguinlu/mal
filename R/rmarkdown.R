@@ -203,3 +203,17 @@ aca_simple_table <-
 return(ft)
 
 }
+
+
+#' Set-up common GitHub Actions
+#'
+#' @export
+
+setup_gha <- function(){
+  usethis::use_readme_rmd()
+  usethis::use_lifecycle_badge("experimental")
+  usethis::use_github_action_check_standard()
+  usethis::use_github_action("pkgdown")
+  usethis::use_github_action("test-coverage")
+  rmarkdown::render("README.Rmd", output_format = "github_document")
+}
