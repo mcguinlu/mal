@@ -216,4 +216,5 @@ setup_gha <- function(){
   usethis::use_github_action("pkgdown")
   usethis::use_github_action("test-coverage")
   rmarkdown::render("README.Rmd", output_format = "github_document")
+  usethis::use_pkgdown()
 }
